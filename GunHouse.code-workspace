@@ -1,0 +1,613 @@
+{
+	"folders": [
+		{
+			"name": "GunHouse",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "G:\\Program Files\\Epic Games\\UE_5.3"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "GunHouse Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouse",
+					"Win64",
+					"Debug",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouse Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouse",
+					"Win64",
+					"Debug",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GunHouse Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouse Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GunHouse",
+					"Win64",
+					"Debug",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouse Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouse",
+					"Win64",
+					"DebugGame",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouse Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouse",
+					"Win64",
+					"DebugGame",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GunHouse Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouse Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GunHouse",
+					"Win64",
+					"DebugGame",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouse Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouse",
+					"Win64",
+					"Development",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouse Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouse",
+					"Win64",
+					"Development",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GunHouse Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouse Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GunHouse",
+					"Win64",
+					"Development",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouse Win64 Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouse",
+					"Win64",
+					"Test",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouse Win64 Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouse",
+					"Win64",
+					"Test",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GunHouse Win64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouse Win64 Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GunHouse",
+					"Win64",
+					"Test",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouse Win64 Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouse",
+					"Win64",
+					"Shipping",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouse Win64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouse",
+					"Win64",
+					"Shipping",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GunHouse Win64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouse Win64 Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GunHouse",
+					"Win64",
+					"Shipping",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouseEditor Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouseEditor",
+					"Win64",
+					"Debug",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouseEditor Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouseEditor",
+					"Win64",
+					"Debug",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GunHouseEditor Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouseEditor Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GunHouseEditor",
+					"Win64",
+					"Debug",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouseEditor Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouseEditor",
+					"Win64",
+					"DebugGame",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouseEditor Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouseEditor",
+					"Win64",
+					"DebugGame",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GunHouseEditor Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouseEditor Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GunHouseEditor",
+					"Win64",
+					"DebugGame",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouseEditor Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouseEditor",
+					"Win64",
+					"Development",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouseEditor Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"GunHouseEditor",
+					"Win64",
+					"Development",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"GunHouseEditor Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"label": "GunHouseEditor Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"GunHouseEditor",
+					"Win64",
+					"Development",
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch GunHouse (Debug)",
+				"request": "launch",
+				"program": "G:\\Unreal Project\\GunHouse\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+				"preLaunchTask": "GunHouse Win64 Debug Build",
+				"args": [
+				],
+				"cwd": "G:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch GunHouse (DebugGame)",
+				"request": "launch",
+				"program": "G:\\Unreal Project\\GunHouse\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+				"preLaunchTask": "GunHouse Win64 DebugGame Build",
+				"args": [
+				],
+				"cwd": "G:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch GunHouse (Development)",
+				"request": "launch",
+				"program": "G:\\Unreal Project\\GunHouse\\Binaries\\Win64\\UnrealGame.exe",
+				"preLaunchTask": "GunHouse Win64 Development Build",
+				"args": [
+				],
+				"cwd": "G:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch GunHouse (Test)",
+				"request": "launch",
+				"program": "G:\\Unreal Project\\GunHouse\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+				"preLaunchTask": "GunHouse Win64 Test Build",
+				"args": [
+				],
+				"cwd": "G:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch GunHouse (Shipping)",
+				"request": "launch",
+				"program": "G:\\Unreal Project\\GunHouse\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+				"preLaunchTask": "GunHouse Win64 Shipping Build",
+				"args": [
+				],
+				"cwd": "G:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch GunHouseEditor (Debug)",
+				"request": "launch",
+				"program": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+				"preLaunchTask": "GunHouseEditor Win64 Debug Build",
+				"args": [
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject"
+				],
+				"cwd": "G:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch GunHouseEditor (DebugGame)",
+				"request": "launch",
+				"program": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+				"preLaunchTask": "GunHouseEditor Win64 DebugGame Build",
+				"args": [
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject"
+				],
+				"cwd": "G:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch GunHouseEditor (Development)",
+				"request": "launch",
+				"program": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+				"preLaunchTask": "GunHouseEditor Win64 Development Build",
+				"args": [
+					"G:\\Unreal Project\\GunHouse\\GunHouse.uproject"
+				],
+				"cwd": "G:\\Program Files\\Epic Games\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Program Files\\Epic Games\\UE_5.3"
+				}
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Win64 Development Build",
+				"program": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=G:\\Unreal Project\\GunHouse\\GunHouse.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "externalTerminal",
+				"stopAtEntry": false,
+				"cwd": "G:\\Program Files\\Epic Games\\UE_5.3"
+			}
+		]
+	}
+}

@@ -1,0 +1,42 @@
+[
+	{
+		"file": "G:\\Unreal Project\\GunHouse\\Source\\GunHouse\\GunHouse.Build.cs",
+		"arguments": [
+			"G:\\visual studio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Project\\GunHouse\\.vscode\\compileCommands_GunHouse\\GunHouse.1.rsp"
+		],
+		"directory": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Project\\GunHouse\\Source\\GunHouse\\GunHouse.cpp",
+		"arguments": [
+			"G:\\visual studio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Project\\GunHouse\\.vscode\\compileCommands_GunHouse\\GunHouse.1.rsp"
+		],
+		"directory": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Project\\GunHouse\\Source\\GunHouse\\GunHouse.h",
+		"arguments": [
+			"G:\\visual studio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Project\\GunHouse\\.vscode\\compileCommands_GunHouse\\GunHouse.1.rsp"
+		],
+		"directory": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Project\\GunHouse\\Source\\GunHouse\\Private\\dump.cpp",
+		"arguments": [
+			"G:\\visual studio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Project\\GunHouse\\.vscode\\compileCommands_GunHouse\\GunHouse.1.rsp"
+		],
+		"directory": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal Project\\GunHouse\\Source\\GunHouse\\Private\\dump.h",
+		"arguments": [
+			"G:\\visual studio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal Project\\GunHouse\\.vscode\\compileCommands_GunHouse\\GunHouse.1.rsp"
+		],
+		"directory": "G:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	}
+]

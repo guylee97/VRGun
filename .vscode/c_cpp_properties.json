@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "GunHouseEditor Editor Win64 Development (GunHouse)",
+            "compilerPath": "G:\\visual studio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "G:\\Unreal Project\\GunHouse\\.vscode\\compileCommands_GunHouse.json"
+        },
+        {
+            "name": "Win32",
+            "compilerPath": "G:\\visual studio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "G:\\Unreal Project\\GunHouse\\.vscode\\compileCommands_Default.json"
+        }
+    ],
+    "version": 4
+}
