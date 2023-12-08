@@ -1722,3 +1722,138 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.08-10.39.17:746][552]AssetCheck: New page: アセット保存：FirstFloor
 [2023.12.08-10.39.17:748][552]LogContentValidation: Display: /Script/Engine.World /Game/EF_FirstFloor/Maps/FirstFloor.FirstFloor を検証しています
 [2023.12.08-10.39.17:762][552]LogAutomationController: Ignoring very large delta of 2.99 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.08-10.40.55:285][391]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.12.08-10.42.44:751][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2023.12.08-10.42.46:753][ 51]LogSlate: Window 'コンテンツを保存' being destroyed
+[2023.12.08-10.42.47:246][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.08-10.42.47:304][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EF_FirstFloor/Maps/FirstFloor" FILE="../../../../VRGun/housemap/Content/EF_FirstFloor/Maps/FirstFloor.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.08-10.42.47:376][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.12.08-10.42.48:358][ 51]LogSavePackage: Moving output files for package: /Game/EF_FirstFloor/Maps/FirstFloor
+[2023.12.08-10.42.48:359][ 51]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/FirstFloor70780BD745F2358ADE731B857398154E.tmp' to '../../../../VRGun/housemap/Content/EF_FirstFloor/Maps/FirstFloor.umap'
+[2023.12.08-10.42.48:389][ 51]LogFileHelpers: Saving map 'FirstFloor' took 1.085
+[2023.12.08-10.42.48:407][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.16 sec (total: 8.80 sec)
+[2023.12.08-10.42.48:416][ 51]AssetCheck: New page: アセット保存：FirstFloor
+[2023.12.08-10.42.48:416][ 51]LogContentValidation: Display: /Script/Engine.World /Game/EF_FirstFloor/Maps/FirstFloor.FirstFloor を検証しています
+[2023.12.08-10.42.48:426][ 51]LogAutomationController: Ignoring very large delta of 3.79 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.08-10.43.09:304][354]LogUObjectHash: Compacting FUObjectHashTables data took   5.75ms
+[2023.12.08-10.43.09:842][354]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.08-10.43.09:917][354]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-10.43.09:948][354]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/Door_push_Parent_Child_Key1" FILE="../../../../VRGun/housemap/Content/Door/Door_push_Parent_Child_Key1.uasset" SILENT=true
+[2023.12.08-10.43.09:981][354]LogSavePackage: Moving output files for package: /Game/Door/Door_push_Parent_Child_Key1
+[2023.12.08-10.43.09:981][354]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/Door_push_Parent_Child_Key160B82D3A4314CFA45AC020BEDC45E055.tmp' to '../../../../VRGun/housemap/Content/Door/Door_push_Parent_Child_Key1.uasset'
+[2023.12.08-10.43.10:646][354]LogFileHelpers: InternalPromptForCheckoutAndSave took 804 ms (total: 9.60 sec)
+[2023.12.08-10.43.11:716][354]AssetCheck: New page: アセット保存：Door_push_Parent_Child_Key1
+[2023.12.08-10.43.11:716][354]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Door/Door_push_Parent_Child_Key1.Door_push_Parent_Child_Key1 を検証しています
+[2023.12.08-10.43.11:741][354]LogAutomationController: Ignoring very large delta of 2.64 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.08-10.43.23:135][592]LogContentBrowser: Deferred new asset folder creation: 新規フォルダ
+[2023.12.08-10.43.23:285][592]LogContentBrowser: Creating deferred item: 新規フォルダ
+[2023.12.08-10.43.23:319][593]LogContentBrowser: Renaming the item being created (Deferred Item: 新規フォルダ).
+[2023.12.08-10.43.30:293][659]LogContentBrowser: Attempting asset rename: 新規フォルダ -> winecabinet
+[2023.12.08-10.43.30:294][659]LogContentBrowser: End creating deferred item 新規フォルダ
+[2023.12.08-10.43.38:986][807]LogMetaData: Removing '/Game/Door/winecabinet/cabinet_parent.cabinet_parent_C' ref from Metadata '/Game/Door/cabinet_parent.PackageMetaData'
+[2023.12.08-10.43.38:992][807]LogMetaData: Removing '/Game/Door/winecabinet/cabinet_parent.SKEL_cabinet_parent_C' ref from Metadata '/Game/Door/cabinet_parent.PackageMetaData'
+[2023.12.08-10.43.38:992][807]LogMetaData: Removing '/Game/Door/winecabinet/cabinet_parent.SKEL_cabinet_parent_C:door_open' ref from Metadata '/Game/Door/cabinet_parent.PackageMetaData'
+[2023.12.08-10.43.38:992][807]LogMetaData: Removing '/Game/Door/winecabinet/cabinet_parent.SKEL_cabinet_parent_C:door_close' ref from Metadata '/Game/Door/cabinet_parent.PackageMetaData'
+[2023.12.08-10.43.38:992][807]LogMetaData: Removing '/Game/Door/winecabinet/cabinet_parent.SKEL_cabinet_parent_C:UserConstructionScript' ref from Metadata '/Game/Door/cabinet_parent.PackageMetaData'
+[2023.12.08-10.43.39:030][807]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.08-10.43.39:092][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/winecabinet/cabinet_parent" FILE="../../../../VRGun/housemap/Content/Door/winecabinet/cabinet_parent.uasset" SILENT=true
+[2023.12.08-10.43.39:104][807]LogSavePackage: Moving output files for package: /Game/Door/winecabinet/cabinet_parent
+[2023.12.08-10.43.39:104][807]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/cabinet_parent174362494186617591751797034798B2.tmp' to '../../../../VRGun/housemap/Content/Door/winecabinet/cabinet_parent.uasset'
+[2023.12.08-10.43.39:112][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/cabinet_parent" FILE="../../../../VRGun/housemap/Content/Door/cabinet_parent.uasset" SILENT=true
+[2023.12.08-10.43.39:113][807]LogSavePackage: Moving output files for package: /Game/Door/cabinet_parent
+[2023.12.08-10.43.39:116][807]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/cabinet_parentA529228E43A9FBA58171A681DE019FAF.tmp' to '../../../../VRGun/housemap/Content/Door/cabinet_parent.uasset'
+[2023.12.08-10.43.39:603][807]LogFileHelpers: InternalPromptForCheckoutAndSave took 572 ms (total: 10.1 sec)
+[2023.12.08-10.43.40:171][807]AssetCheck: New page: アセット保存：複数のアセット
+[2023.12.08-10.43.40:171][807]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Door/winecabinet/cabinet_parent.cabinet_parent を検証しています
+[2023.12.08-10.43.40:171][807]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/cabinet_parent.cabinet_parent_C を検証しています
+[2023.12.08-10.43.40:171][807]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/cabinet_parent.Default__cabinet_parent_C を検証しています
+[2023.12.08-10.43.40:171][807]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/cabinet_parent.cabinet_parent を検証しています
+[2023.12.08-10.43.40:241][807]LogAutomationController: Ignoring very large delta of 3.69 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.08-10.43.46:904][989]LogMetaData: Removing '/Game/Door/winecabinet/cabinet_parent_Child.cabinet_parent_Child_C' ref from Metadata '/Game/Door/cabinet_parent_Child.PackageMetaData'
+[2023.12.08-10.43.46:904][989]LogMetaData: Removing '/Game/Door/winecabinet/cabinet_parent_Child.SKEL_cabinet_parent_Child_C' ref from Metadata '/Game/Door/cabinet_parent_Child.PackageMetaData'
+[2023.12.08-10.43.46:904][989]LogMetaData: Removing '/Game/Door/winecabinet/cabinet_parent_Child.cabinet_parent_Child:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Door/cabinet_parent_Child.PackageMetaData'
+[2023.12.08-10.43.46:910][989]LogMetaData: Removing '/Game/Door/winecabinet/cabinet_parent_Child.SKEL_cabinet_parent_Child_C:BndEvt__cabbinet_parent_Child_Box_L_K2Node_ComponentBoundEvent_5_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Door/cabinet_parent_Child.PackageMetaData'
+[2023.12.08-10.43.46:910][989]LogMetaData: Removing '/Game/Door/winecabinet/cabinet_parent_Child.SKEL_cabinet_parent_Child_C:BndEvt__cabbinet_parent_Child_Box_L_K2Node_ComponentBoundEvent_6_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/Door/cabinet_parent_Child.PackageMetaData'
+[2023.12.08-10.43.46:910][989]LogMetaData: Removing '/Game/Door/winecabinet/cabinet_parent_Child.SKEL_cabinet_parent_Child_C:UserConstructionScript' ref from Metadata '/Game/Door/cabinet_parent_Child.PackageMetaData'
+[2023.12.08-10.43.46:941][989]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.08-10.43.47:009][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/winecabinet/cabinet_parent_Child" FILE="../../../../VRGun/housemap/Content/Door/winecabinet/cabinet_parent_Child.uasset" SILENT=true
+[2023.12.08-10.43.47:021][989]LogSavePackage: Moving output files for package: /Game/Door/winecabinet/cabinet_parent_Child
+[2023.12.08-10.43.47:021][989]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/cabinet_parent_Child37ADB8D547CAFB7EEE6AEBBC60F152E9.tmp' to '../../../../VRGun/housemap/Content/Door/winecabinet/cabinet_parent_Child.uasset'
+[2023.12.08-10.43.47:027][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/cabinet_parent_Child" FILE="../../../../VRGun/housemap/Content/Door/cabinet_parent_Child.uasset" SILENT=true
+[2023.12.08-10.43.47:028][989]LogSavePackage: Moving output files for package: /Game/Door/cabinet_parent_Child
+[2023.12.08-10.43.47:029][989]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/cabinet_parent_Child197B7707423B0C831C24DC9098E8F94D.tmp' to '../../../../VRGun/housemap/Content/Door/cabinet_parent_Child.uasset'
+[2023.12.08-10.43.47:536][989]LogFileHelpers: InternalPromptForCheckoutAndSave took 594 ms (total: 10.7 sec)
+[2023.12.08-10.43.48:289][989]AssetCheck: New page: アセット保存：複数のアセット
+[2023.12.08-10.43.48:289][989]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Door/winecabinet/cabinet_parent_Child.cabinet_parent_Child を検証しています
+[2023.12.08-10.43.48:289][989]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/cabinet_parent_Child.cabinet_parent_Child_C を検証しています
+[2023.12.08-10.43.48:289][989]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/cabinet_parent_Child.Default__cabinet_parent_Child_C を検証しています
+[2023.12.08-10.43.48:289][989]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/cabinet_parent_Child.cabinet_parent_Child を検証しています
+[2023.12.08-10.43.48:351][989]LogAutomationController: Ignoring very large delta of 3.90 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.08-10.43.59:205][238]LogMetaData: Removing '/Game/Door/winecabinet/right_door_parent.right_door_parent_C' ref from Metadata '/Game/Door/right_door_parent.PackageMetaData'
+[2023.12.08-10.43.59:210][238]LogMetaData: Removing '/Game/Door/winecabinet/right_door_parent.SKEL_right_door_parent_C' ref from Metadata '/Game/Door/right_door_parent.PackageMetaData'
+[2023.12.08-10.43.59:210][238]LogMetaData: Removing '/Game/Door/winecabinet/right_door_parent.SKEL_right_door_parent_C:UserConstructionScript' ref from Metadata '/Game/Door/right_door_parent.PackageMetaData'
+[2023.12.08-10.43.59:210][238]LogMetaData: Removing '/Game/Door/winecabinet/right_door_parent.SKEL_right_door_parent_C:door_close' ref from Metadata '/Game/Door/right_door_parent.PackageMetaData'
+[2023.12.08-10.43.59:210][238]LogMetaData: Removing '/Game/Door/winecabinet/right_door_parent.SKEL_right_door_parent_C:door_open' ref from Metadata '/Game/Door/right_door_parent.PackageMetaData'
+[2023.12.08-10.43.59:246][238]LogMetaData: Removing '/Game/Door/winecabinet/right_door_parent_Child.right_door_parent_Child:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Door/right_door_parent_Child.PackageMetaData'
+[2023.12.08-10.43.59:246][238]LogMetaData: Removing '/Game/Door/winecabinet/right_door_parent_Child.SKEL_right_door_parent_Child_C' ref from Metadata '/Game/Door/right_door_parent_Child.PackageMetaData'
+[2023.12.08-10.43.59:246][238]LogMetaData: Removing '/Game/Door/winecabinet/right_door_parent_Child.right_door_parent_Child_C' ref from Metadata '/Game/Door/right_door_parent_Child.PackageMetaData'
+[2023.12.08-10.43.59:246][238]LogMetaData: Removing '/Game/Door/winecabinet/right_door_parent_Child.SKEL_right_door_parent_Child_C:UserConstructionScript' ref from Metadata '/Game/Door/right_door_parent_Child.PackageMetaData'
+[2023.12.08-10.43.59:246][238]LogMetaData: Removing '/Game/Door/winecabinet/right_door_parent_Child.SKEL_right_door_parent_Child_C:BndEvt__right_door_parent_Child_Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/Door/right_door_parent_Child.PackageMetaData'
+[2023.12.08-10.43.59:246][238]LogMetaData: Removing '/Game/Door/winecabinet/right_door_parent_Child.SKEL_right_door_parent_Child_C:BndEvt__right_door_parent_Child_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Door/right_door_parent_Child.PackageMetaData'
+[2023.12.08-10.43.59:289][238]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.08-10.43.59:346][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/winecabinet/right_door_parent" FILE="../../../../VRGun/housemap/Content/Door/winecabinet/right_door_parent.uasset" SILENT=true
+[2023.12.08-10.43.59:358][238]LogSavePackage: Moving output files for package: /Game/Door/winecabinet/right_door_parent
+[2023.12.08-10.43.59:358][238]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/right_door_parentEBC5FCCC45446C42C3BD75B73E0AF0C0.tmp' to '../../../../VRGun/housemap/Content/Door/winecabinet/right_door_parent.uasset'
+[2023.12.08-10.43.59:365][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/right_door_parent" FILE="../../../../VRGun/housemap/Content/Door/right_door_parent.uasset" SILENT=true
+[2023.12.08-10.43.59:368][238]LogSavePackage: Moving output files for package: /Game/Door/right_door_parent
+[2023.12.08-10.43.59:369][238]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/right_door_parent122A8894402E55EB11D10E99C8A2DAD9.tmp' to '../../../../VRGun/housemap/Content/Door/right_door_parent.uasset'
+[2023.12.08-10.43.59:390][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/winecabinet/right_door_parent_Child" FILE="../../../../VRGun/housemap/Content/Door/winecabinet/right_door_parent_Child.uasset" SILENT=true
+[2023.12.08-10.43.59:406][238]LogSavePackage: Moving output files for package: /Game/Door/winecabinet/right_door_parent_Child
+[2023.12.08-10.43.59:406][238]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/right_door_parent_Child9088541B4866E31B821B438C9406F5D8.tmp' to '../../../../VRGun/housemap/Content/Door/winecabinet/right_door_parent_Child.uasset'
+[2023.12.08-10.43.59:416][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/right_door_parent_Child" FILE="../../../../VRGun/housemap/Content/Door/right_door_parent_Child.uasset" SILENT=true
+[2023.12.08-10.43.59:418][238]LogSavePackage: Moving output files for package: /Game/Door/right_door_parent_Child
+[2023.12.08-10.43.59:421][238]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/right_door_parent_Child34243991493544CE7E27978B13DB4058.tmp' to '../../../../VRGun/housemap/Content/Door/right_door_parent_Child.uasset'
+[2023.12.08-10.44.00:008][238]LogFileHelpers: InternalPromptForCheckoutAndSave took 719 ms (total: 11.4 sec)
+[2023.12.08-10.44.00:875][238]AssetCheck: New page: アセット保存：複数のアセット
+[2023.12.08-10.44.00:875][238]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Door/winecabinet/right_door_parent.right_door_parent を検証しています
+[2023.12.08-10.44.00:875][238]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/right_door_parent.right_door_parent_C を検証しています
+[2023.12.08-10.44.00:877][238]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/right_door_parent.Default__right_door_parent_C を検証しています
+[2023.12.08-10.44.00:877][238]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/right_door_parent.right_door_parent を検証しています
+[2023.12.08-10.44.00:877][238]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Door/winecabinet/right_door_parent_Child.right_door_parent_Child を検証しています
+[2023.12.08-10.44.00:877][238]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/right_door_parent_Child.right_door_parent_Child を検証しています
+[2023.12.08-10.44.00:877][238]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/right_door_parent_Child.right_door_parent_Child_C を検証しています
+[2023.12.08-10.44.00:877][238]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/right_door_parent_Child.Default__right_door_parent_Child_C を検証しています
+[2023.12.08-10.44.00:889][238]LogAutomationController: Ignoring very large delta of 4.15 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.08-10.44.31:489][849]LogContentBrowser: Attempting asset rename: Door_push_Parent_Child_Key1 -> Door_push_Parent_Child_Click
+[2023.12.08-10.44.34:309][849]LogMetaData: Removing '/Game/Door/Door_push_Parent_Child_Click.SKEL_Door_push_Parent_Child_Click_C' ref from Metadata '/Game/Door/Door_push_Parent_Child_Key1.PackageMetaData'
+[2023.12.08-10.44.34:309][849]LogMetaData: Removing '/Game/Door/Door_push_Parent_Child_Click.Door_push_Parent_Child_Click_C' ref from Metadata '/Game/Door/Door_push_Parent_Child_Key1.PackageMetaData'
+[2023.12.08-10.44.34:310][849]LogMetaData: Removing '/Game/Door/Door_push_Parent_Child_Click.SKEL_Door_push_Parent_Child_Click_C:BndEvt__DoorParent_Child_Key_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Door/Door_push_Parent_Child_Key1.PackageMetaData'
+[2023.12.08-10.44.34:310][849]LogMetaData: Removing '/Game/Door/Door_push_Parent_Child_Click.SKEL_Door_push_Parent_Child_Click_C:BndEvt__DoorParent_Child_Key_Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/Door/Door_push_Parent_Child_Key1.PackageMetaData'
+[2023.12.08-10.44.34:310][849]LogMetaData: Removing '/Game/Door/Door_push_Parent_Child_Click.SKEL_Door_push_Parent_Child_Click_C:UserConstructionScript' ref from Metadata '/Game/Door/Door_push_Parent_Child_Key1.PackageMetaData'
+[2023.12.08-10.44.34:310][849]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.08-10.44.34:371][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/Door_push_Parent_Child_Click" FILE="../../../../VRGun/housemap/Content/Door/Door_push_Parent_Child_Click.uasset" SILENT=true
+[2023.12.08-10.44.34:394][849]LogSavePackage: Moving output files for package: /Game/Door/Door_push_Parent_Child_Click
+[2023.12.08-10.44.34:394][849]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/Door_push_Parent_Child_Click6C6BB6504C33CE7CF33A7A80E32F8462.tmp' to '../../../../VRGun/housemap/Content/Door/Door_push_Parent_Child_Click.uasset'
+[2023.12.08-10.44.34:887][849]LogFileHelpers: InternalPromptForCheckoutAndSave took 582 ms (total: 12.0 sec)
+[2023.12.08-10.44.35:557][849]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2023.12.08-10.44.35:587][849]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2023.12.08-10.44.35:612][849]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.12.08-10.44.36:185][849]SourceControl: rm 'housemap/Content/Door/Door_push_Parent_Child_Key1.uasset'
+[2023.12.08-10.44.36:198][849]AssetCheck: New page: アセット保存：Door_push_Parent_Child_Click
+[2023.12.08-10.44.36:198][849]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Door/Door_push_Parent_Child_Click.Door_push_Parent_Child_Click を検証しています
+[2023.12.08-10.44.36:198][849]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-10.44.36:249][849]LogAutomationController: Ignoring very large delta of 4.77 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.08-10.44.38:208][869]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Door/Door_push_Parent_Child_Click.Door_push_Parent_Child_Click
+[2023.12.08-10.44.38:209][869]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-10.44.38:210][869]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-10.45.05:247][ 68]BlueprintLog: New page: Door_push_Parent_Child_Click をコンパイル
+[2023.12.08-10.45.05:383][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   7.22ms
+[2023.12.08-10.45.08:041][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.08-10.45.08:126][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/Door_push_Parent_Child_Click" FILE="../../../../VRGun/housemap/Content/Door/Door_push_Parent_Child_Click.uasset" SILENT=true
+[2023.12.08-10.45.08:148][ 87]LogSavePackage: Moving output files for package: /Game/Door/Door_push_Parent_Child_Click
+[2023.12.08-10.45.08:149][ 87]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/Door_push_Parent_Child_ClickFCD8DC024C2654DE334E9FB4B77E4120.tmp' to '../../../../VRGun/housemap/Content/Door/Door_push_Parent_Child_Click.uasset'
+[2023.12.08-10.45.08:175][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 12.2 sec)
+[2023.12.08-10.45.08:178][ 87]AssetCheck: New page: アセット保存：Door_push_Parent_Child_Click
+[2023.12.08-10.45.08:178][ 87]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Door/Door_push_Parent_Child_Click.Door_push_Parent_Child_Click を検証しています
+[2023.12.08-10.45.32:369][308]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.12.08-10.45.33:173][309]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
