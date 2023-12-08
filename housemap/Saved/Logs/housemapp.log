@@ -5078,3 +5078,152 @@ Script Stack (3 frames) :
 [2023.12.08-20.27.58:068][193]AssetCheck: New page: アセット保存：FirstFloor
 [2023.12.08-20.27.58:068][193]LogContentValidation: Display: /Script/Engine.World /Game/EF_FirstFloor/Maps/FirstFloor.FirstFloor を検証しています
 [2023.12.08-20.27.58:079][193]LogAutomationController: Ignoring very large delta of 3.65 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.08-20.34.20:611][ 89]LogContentBrowser: Attempting asset rename: New_Folder(1) -> drawer1
+[2023.12.08-20.34.23:735][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP.Drawers_BP_C' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP.PackageMetaData'
+[2023.12.08-20.34.23:735][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP.SKEL_Drawers_BP_C' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP.PackageMetaData'
+[2023.12.08-20.34.23:735][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP.Drawers_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP.PackageMetaData'
+[2023.12.08-20.34.23:735][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP.Drawers_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP.PackageMetaData'
+[2023.12.08-20.34.23:735][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP.Drawers_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP.PackageMetaData'
+[2023.12.08-20.34.23:735][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP.Drawers_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP.PackageMetaData'
+[2023.12.08-20.34.23:735][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP.SKEL_Drawers_BP_C:UserConstructionScript' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP.PackageMetaData'
+[2023.12.08-20.34.23:735][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP.SKEL_Drawers_BP_C:door_close' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP.PackageMetaData'
+[2023.12.08-20.34.23:735][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP.SKEL_Drawers_BP_C:door_open' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP.PackageMetaData'
+[2023.12.08-20.34.23:830][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP_Child.Drawers_BP_Child:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP_Child.PackageMetaData'
+[2023.12.08-20.34.23:830][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP_Child.SKEL_Drawers_BP_Child_C' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP_Child.PackageMetaData'
+[2023.12.08-20.34.23:830][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP_Child.Drawers_BP_Child_C' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP_Child.PackageMetaData'
+[2023.12.08-20.34.23:830][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP_Child.Drawers_BP_Child:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP_Child.PackageMetaData'
+[2023.12.08-20.34.23:830][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP_Child.Drawers_BP_Child:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP_Child.PackageMetaData'
+[2023.12.08-20.34.23:830][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP_Child.Drawers_BP_Child:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP_Child.PackageMetaData'
+[2023.12.08-20.34.23:830][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP_Child.SKEL_Drawers_BP_Child_C:UserConstructionScript' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP_Child.PackageMetaData'
+[2023.12.08-20.34.23:830][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP_Child.SKEL_Drawers_BP_Child_C:BndEvt__cabbinet_parent_Child_Box_L_K2Node_ComponentBoundEvent_6_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP_Child.PackageMetaData'
+[2023.12.08-20.34.23:830][ 89]LogMetaData: Removing '/Game/Door/drawer1/Drawers_BP_Child.SKEL_Drawers_BP_Child_C:BndEvt__cabbinet_parent_Child_Box_L_K2Node_ComponentBoundEvent_5_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Door/New_Folder(1)/Drawers_BP_Child.PackageMetaData'
+[2023.12.08-20.34.23:868][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right_Child.top_right_Child:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Door/New_Folder(1)/top_right_Child.PackageMetaData'
+[2023.12.08-20.34.23:868][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right_Child.SKEL_top_right_Child_C' ref from Metadata '/Game/Door/New_Folder(1)/top_right_Child.PackageMetaData'
+[2023.12.08-20.34.23:868][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right_Child.top_right_Child_C' ref from Metadata '/Game/Door/New_Folder(1)/top_right_Child.PackageMetaData'
+[2023.12.08-20.34.23:868][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right_Child.top_right_Child:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Door/New_Folder(1)/top_right_Child.PackageMetaData'
+[2023.12.08-20.34.23:868][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right_Child.top_right_Child:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Door/New_Folder(1)/top_right_Child.PackageMetaData'
+[2023.12.08-20.34.23:868][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right_Child.top_right_Child:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Door/New_Folder(1)/top_right_Child.PackageMetaData'
+[2023.12.08-20.34.23:868][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right_Child.SKEL_top_right_Child_C:UserConstructionScript' ref from Metadata '/Game/Door/New_Folder(1)/top_right_Child.PackageMetaData'
+[2023.12.08-20.34.23:868][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right_Child.SKEL_top_right_Child_C:BndEvt__door_parent_Child_mo_Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/Door/New_Folder(1)/top_right_Child.PackageMetaData'
+[2023.12.08-20.34.23:868][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right_Child.SKEL_top_right_Child_C:BndEvt__door_parent_Child_mo_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/Door/New_Folder(1)/top_right_Child.PackageMetaData'
+[2023.12.08-20.34.23:913][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right.top_right:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Door/New_Folder(1)/top_right.PackageMetaData'
+[2023.12.08-20.34.23:913][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right.SKEL_top_right_C' ref from Metadata '/Game/Door/New_Folder(1)/top_right.PackageMetaData'
+[2023.12.08-20.34.23:913][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right.top_right_C' ref from Metadata '/Game/Door/New_Folder(1)/top_right.PackageMetaData'
+[2023.12.08-20.34.23:913][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right.top_right:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Door/New_Folder(1)/top_right.PackageMetaData'
+[2023.12.08-20.34.23:914][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right.top_right:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Door/New_Folder(1)/top_right.PackageMetaData'
+[2023.12.08-20.34.23:914][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right.top_right:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Door/New_Folder(1)/top_right.PackageMetaData'
+[2023.12.08-20.34.23:914][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right.SKEL_top_right_C:UserConstructionScript' ref from Metadata '/Game/Door/New_Folder(1)/top_right.PackageMetaData'
+[2023.12.08-20.34.23:914][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right.SKEL_top_right_C:door_close' ref from Metadata '/Game/Door/New_Folder(1)/top_right.PackageMetaData'
+[2023.12.08-20.34.23:914][ 89]LogMetaData: Removing '/Game/Door/drawer1/top_right.SKEL_top_right_C:door_open' ref from Metadata '/Game/Door/New_Folder(1)/top_right.PackageMetaData'
+[2023.12.08-20.34.23:966][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.08-20.34.24:023][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/drawer1/Drawers_BP" FILE="../../../../VRGun/housemap/Content/Door/drawer1/Drawers_BP.uasset" SILENT=true
+[2023.12.08-20.34.24:036][ 89]LogSavePackage: Moving output files for package: /Game/Door/drawer1/Drawers_BP
+[2023.12.08-20.34.24:036][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/Drawers_BPE94B67BD4CFBAE06D10D5D97AAC04B61.tmp' to '../../../../VRGun/housemap/Content/Door/drawer1/Drawers_BP.uasset'
+[2023.12.08-20.34.24:048][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/New_Folder(1)/Drawers_BP" FILE="../../../../VRGun/housemap/Content/Door/New_Folder(1)/Drawers_BP.uasset" SILENT=true
+[2023.12.08-20.34.24:050][ 89]LogSavePackage: Moving output files for package: /Game/Door/New_Folder(1)/Drawers_BP
+[2023.12.08-20.34.24:052][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/Drawers_BP461992EA4EDF37E3E82B238ED28F6F77.tmp' to '../../../../VRGun/housemap/Content/Door/New_Folder(1)/Drawers_BP.uasset'
+[2023.12.08-20.34.24:070][ 89]LogSavePackage: Moving output files for package: /Game/Door/drawer1/drawer_SONGESAND_dresser_bottom_right_drawer
+[2023.12.08-20.34.24:070][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresser_bottom_1D4CDD2340DCF1777F30FCBD5C23DEFC.tmp' to '../../../../VRGun/housemap/Content/Door/drawer1/drawer_SONGESAND_dresser_bottom_right_drawer.uasset'
+[2023.12.08-20.34.24:074][ 89]LogSavePackage: Moving output files for package: /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser_bottom_right_drawer
+[2023.12.08-20.34.24:075][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresser_bottom_C3F714AA45E4B4352CCA0FB29E02C88F.tmp' to '../../../../VRGun/housemap/Content/Door/New_Folder(1)/drawer_SONGESAND_dresser_bottom_right_drawer.uasset'
+[2023.12.08-20.34.24:079][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/drawer1/dark_wood_002" FILE="../../../../VRGun/housemap/Content/Door/drawer1/dark_wood_002.uasset" SILENT=true
+[2023.12.08-20.34.24:082][ 89]LogSavePackage: Moving output files for package: /Game/Door/drawer1/dark_wood_002
+[2023.12.08-20.34.24:082][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/dark_wood_002C61BB5934410247638E2DC9786E00EB6.tmp' to '../../../../VRGun/housemap/Content/Door/drawer1/dark_wood_002.uasset'
+[2023.12.08-20.34.24:085][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/New_Folder(1)/dark_wood_002" FILE="../../../../VRGun/housemap/Content/Door/New_Folder(1)/dark_wood_002.uasset" SILENT=true
+[2023.12.08-20.34.24:086][ 89]LogSavePackage: Moving output files for package: /Game/Door/New_Folder(1)/dark_wood_002
+[2023.12.08-20.34.24:087][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/dark_wood_002037735294DAA37AA50339A9E60A714A1.tmp' to '../../../../VRGun/housemap/Content/Door/New_Folder(1)/dark_wood_002.uasset'
+[2023.12.08-20.34.24:100][ 89]LogSavePackage: Moving output files for package: /Game/Door/drawer1/drawer_SONGESAND_dresser_middle_right_drawer
+[2023.12.08-20.34.24:100][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresser_middle_AB98171A499837A21037BE8363070B17.tmp' to '../../../../VRGun/housemap/Content/Door/drawer1/drawer_SONGESAND_dresser_middle_right_drawer.uasset'
+[2023.12.08-20.34.24:104][ 89]LogSavePackage: Moving output files for package: /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser_middle_right_drawer
+[2023.12.08-20.34.24:105][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresser_middle_CFBC6FB54DD9B1E9C214FEA3515DDBEA.tmp' to '../../../../VRGun/housemap/Content/Door/New_Folder(1)/drawer_SONGESAND_dresser_middle_right_drawer.uasset'
+[2023.12.08-20.34.24:108][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/drawer1/drawer_SONGESAND_dresser" FILE="../../../../VRGun/housemap/Content/Door/drawer1/drawer_SONGESAND_dresser.uasset" SILENT=true
+[2023.12.08-20.34.24:115][ 89]LogSavePackage: Moving output files for package: /Game/Door/drawer1/drawer_SONGESAND_dresser
+[2023.12.08-20.34.24:115][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresserA1F5D1A14A3F974DC43C3A9C30932BAD.tmp' to '../../../../VRGun/housemap/Content/Door/drawer1/drawer_SONGESAND_dresser.uasset'
+[2023.12.08-20.34.24:118][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/New_Folder(1)/drawer_SONGESAND_dresser" FILE="../../../../VRGun/housemap/Content/Door/New_Folder(1)/drawer_SONGESAND_dresser.uasset" SILENT=true
+[2023.12.08-20.34.24:120][ 89]LogSavePackage: Moving output files for package: /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser
+[2023.12.08-20.34.24:120][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresser4564805849D62D92840E06B1597CD5BE.tmp' to '../../../../VRGun/housemap/Content/Door/New_Folder(1)/drawer_SONGESAND_dresser.uasset'
+[2023.12.08-20.34.24:135][ 89]LogSavePackage: Moving output files for package: /Game/Door/drawer1/drawer_SONGESAND_dresser_top_right_drawer
+[2023.12.08-20.34.24:135][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresser_top_rig307BE86F4EB3B31BB48F5BA3D90D26E2.tmp' to '../../../../VRGun/housemap/Content/Door/drawer1/drawer_SONGESAND_dresser_top_right_drawer.uasset'
+[2023.12.08-20.34.24:138][ 89]LogSavePackage: Moving output files for package: /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser_top_right_drawer
+[2023.12.08-20.34.24:138][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresser_top_rig07FFA1EE40C38EA376DC8B8D8A96C2F2.tmp' to '../../../../VRGun/housemap/Content/Door/New_Folder(1)/drawer_SONGESAND_dresser_top_right_drawer.uasset'
+[2023.12.08-20.34.24:153][ 89]LogSavePackage: Moving output files for package: /Game/Door/drawer1/drawer_SONGESAND_dresser_bottom_left_drawer
+[2023.12.08-20.34.24:153][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresser_bottom_793FC4914C920E05CC9F4AB60058D4CF.tmp' to '../../../../VRGun/housemap/Content/Door/drawer1/drawer_SONGESAND_dresser_bottom_left_drawer.uasset'
+[2023.12.08-20.34.24:156][ 89]LogSavePackage: Moving output files for package: /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser_bottom_left_drawer
+[2023.12.08-20.34.24:157][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresser_bottom_9CF86B6B44F012CA3883F9830C10B648.tmp' to '../../../../VRGun/housemap/Content/Door/New_Folder(1)/drawer_SONGESAND_dresser_bottom_left_drawer.uasset'
+[2023.12.08-20.34.24:170][ 89]LogSavePackage: Moving output files for package: /Game/Door/drawer1/drawer_SONGESAND_dresser_middle_left_drawer
+[2023.12.08-20.34.24:170][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresser_middle_05961A134CF9ABBBF3E1BAB8A710A6AE.tmp' to '../../../../VRGun/housemap/Content/Door/drawer1/drawer_SONGESAND_dresser_middle_left_drawer.uasset'
+[2023.12.08-20.34.24:175][ 89]LogSavePackage: Moving output files for package: /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser_middle_left_drawer
+[2023.12.08-20.34.24:176][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresser_middle_381785AD43B0A41A09F78A8E131A2D64.tmp' to '../../../../VRGun/housemap/Content/Door/New_Folder(1)/drawer_SONGESAND_dresser_middle_left_drawer.uasset'
+[2023.12.08-20.34.24:177][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/drawer1/drawer_SONGESAND_dresser_counter" FILE="../../../../VRGun/housemap/Content/Door/drawer1/drawer_SONGESAND_dresser_counter.uasset" SILENT=true
+[2023.12.08-20.34.24:184][ 89]LogSavePackage: Moving output files for package: /Game/Door/drawer1/drawer_SONGESAND_dresser_counter
+[2023.12.08-20.34.24:184][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresser_counter65543DEA43BCB4DA9F6A4D94B4D00684.tmp' to '../../../../VRGun/housemap/Content/Door/drawer1/drawer_SONGESAND_dresser_counter.uasset'
+[2023.12.08-20.34.24:185][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/New_Folder(1)/drawer_SONGESAND_dresser_counter" FILE="../../../../VRGun/housemap/Content/Door/New_Folder(1)/drawer_SONGESAND_dresser_counter.uasset" SILENT=true
+[2023.12.08-20.34.24:188][ 89]LogSavePackage: Moving output files for package: /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser_counter
+[2023.12.08-20.34.24:189][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresser_counterEF371CCE4734091A5F8E86AE2A8EF7BD.tmp' to '../../../../VRGun/housemap/Content/Door/New_Folder(1)/drawer_SONGESAND_dresser_counter.uasset'
+[2023.12.08-20.34.24:191][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/drawer1/drawer_handle_002" FILE="../../../../VRGun/housemap/Content/Door/drawer1/drawer_handle_002.uasset" SILENT=true
+[2023.12.08-20.34.24:193][ 89]LogSavePackage: Moving output files for package: /Game/Door/drawer1/drawer_handle_002
+[2023.12.08-20.34.24:194][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_handle_0023DDAE411420D9B897235D495F4174DE7.tmp' to '../../../../VRGun/housemap/Content/Door/drawer1/drawer_handle_002.uasset'
+[2023.12.08-20.34.24:196][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/New_Folder(1)/drawer_handle_002" FILE="../../../../VRGun/housemap/Content/Door/New_Folder(1)/drawer_handle_002.uasset" SILENT=true
+[2023.12.08-20.34.24:198][ 89]LogSavePackage: Moving output files for package: /Game/Door/New_Folder(1)/drawer_handle_002
+[2023.12.08-20.34.24:198][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_handle_0028E22B70E4729E1837926A7B2C0271491.tmp' to '../../../../VRGun/housemap/Content/Door/New_Folder(1)/drawer_handle_002.uasset'
+[2023.12.08-20.34.24:213][ 89]LogSavePackage: Moving output files for package: /Game/Door/drawer1/drawer_SONGESAND_dresser_top_left_drawer
+[2023.12.08-20.34.24:213][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresser_top_lef8D1C38DA42D20A86689D5CA1C7140849.tmp' to '../../../../VRGun/housemap/Content/Door/drawer1/drawer_SONGESAND_dresser_top_left_drawer.uasset'
+[2023.12.08-20.34.24:219][ 89]LogSavePackage: Moving output files for package: /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser_top_left_drawer
+[2023.12.08-20.34.24:220][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/drawer_SONGESAND_dresser_top_lef7A33DF0547B59DD943324185193D60A4.tmp' to '../../../../VRGun/housemap/Content/Door/New_Folder(1)/drawer_SONGESAND_dresser_top_left_drawer.uasset'
+[2023.12.08-20.34.24:242][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/drawer1/Drawers_BP_Child" FILE="../../../../VRGun/housemap/Content/Door/drawer1/Drawers_BP_Child.uasset" SILENT=true
+[2023.12.08-20.34.24:257][ 89]LogSavePackage: Moving output files for package: /Game/Door/drawer1/Drawers_BP_Child
+[2023.12.08-20.34.24:257][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/Drawers_BP_Child7477C4964E68ECC0FFABEE956524BE47.tmp' to '../../../../VRGun/housemap/Content/Door/drawer1/Drawers_BP_Child.uasset'
+[2023.12.08-20.34.24:274][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/New_Folder(1)/Drawers_BP_Child" FILE="../../../../VRGun/housemap/Content/Door/New_Folder(1)/Drawers_BP_Child.uasset" SILENT=true
+[2023.12.08-20.34.24:278][ 89]LogSavePackage: Moving output files for package: /Game/Door/New_Folder(1)/Drawers_BP_Child
+[2023.12.08-20.34.24:280][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/Drawers_BP_ChildBEC3D1314DE16B8B248A3D95254FC8C0.tmp' to '../../../../VRGun/housemap/Content/Door/New_Folder(1)/Drawers_BP_Child.uasset'
+[2023.12.08-20.34.24:290][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/drawer1/top_right_Child" FILE="../../../../VRGun/housemap/Content/Door/drawer1/top_right_Child.uasset" SILENT=true
+[2023.12.08-20.34.24:305][ 89]LogSavePackage: Moving output files for package: /Game/Door/drawer1/top_right_Child
+[2023.12.08-20.34.24:305][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/top_right_Child0FF7601A45C895ECD8F56EABE6B7C4E8.tmp' to '../../../../VRGun/housemap/Content/Door/drawer1/top_right_Child.uasset'
+[2023.12.08-20.34.24:316][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/New_Folder(1)/top_right_Child" FILE="../../../../VRGun/housemap/Content/Door/New_Folder(1)/top_right_Child.uasset" SILENT=true
+[2023.12.08-20.34.24:317][ 89]LogSavePackage: Moving output files for package: /Game/Door/New_Folder(1)/top_right_Child
+[2023.12.08-20.34.24:318][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/top_right_ChildDF67F2914A70C54C65358DAC0BAA92B7.tmp' to '../../../../VRGun/housemap/Content/Door/New_Folder(1)/top_right_Child.uasset'
+[2023.12.08-20.34.24:323][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/drawer1/top_right" FILE="../../../../VRGun/housemap/Content/Door/drawer1/top_right.uasset" SILENT=true
+[2023.12.08-20.34.24:333][ 89]LogSavePackage: Moving output files for package: /Game/Door/drawer1/top_right
+[2023.12.08-20.34.24:333][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/top_right4AA032CC4E009106C5BFE7AD278B4FD6.tmp' to '../../../../VRGun/housemap/Content/Door/drawer1/top_right.uasset'
+[2023.12.08-20.34.24:343][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Door/New_Folder(1)/top_right" FILE="../../../../VRGun/housemap/Content/Door/New_Folder(1)/top_right.uasset" SILENT=true
+[2023.12.08-20.34.24:345][ 89]LogSavePackage: Moving output files for package: /Game/Door/New_Folder(1)/top_right
+[2023.12.08-20.34.24:345][ 89]LogSavePackage: Moving '../../../../VRGun/housemap/Saved/top_right87D6B36742053A462BFFCEB3764B61A3.tmp' to '../../../../VRGun/housemap/Content/Door/New_Folder(1)/top_right.uasset'
+[2023.12.08-20.34.24:957][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave took 992 ms (total: 35.3 sec)
+[2023.12.08-20.34.29:557][ 89]AssetCheck: New page: アセット保存：複数のアセット
+[2023.12.08-20.34.29:557][ 89]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Door/drawer1/Drawers_BP.Drawers_BP を検証しています
+[2023.12.08-20.34.29:557][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/Drawers_BP.Drawers_BP_C を検証しています
+[2023.12.08-20.34.29:557][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/Drawers_BP.Default__Drawers_BP_C を検証しています
+[2023.12.08-20.34.29:557][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/Drawers_BP.Drawers_BP を検証しています
+[2023.12.08-20.34.29:557][ 89]LogContentValidation: Display: /Script/Engine.StaticMesh /Game/Door/drawer1/drawer_SONGESAND_dresser_bottom_right_drawer.drawer_SONGESAND_dresser_bottom_right_drawer を検証しています
+[2023.12.08-20.34.29:557][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser_bottom_right_drawer.drawer_SONGESAND_dresser_bottom_right_drawer を検証しています
+[2023.12.08-20.34.29:557][ 89]LogContentValidation: Display: /Script/Engine.Material /Game/Door/drawer1/dark_wood_002.dark_wood_002 を検証しています
+[2023.12.08-20.34.29:557][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/dark_wood_002.dark_wood_002 を検証しています
+[2023.12.08-20.34.29:557][ 89]LogContentValidation: Display: /Script/Engine.StaticMesh /Game/Door/drawer1/drawer_SONGESAND_dresser_middle_right_drawer.drawer_SONGESAND_dresser_middle_right_drawer を検証しています
+[2023.12.08-20.34.29:557][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser_middle_right_drawer.drawer_SONGESAND_dresser_middle_right_drawer を検証しています
+[2023.12.08-20.34.29:557][ 89]LogContentValidation: Display: /Script/Engine.StaticMesh /Game/Door/drawer1/drawer_SONGESAND_dresser.drawer_SONGESAND_dresser を検証しています
+[2023.12.08-20.34.29:557][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser.drawer_SONGESAND_dresser を検証しています
+[2023.12.08-20.34.29:557][ 89]LogContentValidation: Display: /Script/Engine.StaticMesh /Game/Door/drawer1/drawer_SONGESAND_dresser_top_right_drawer.drawer_SONGESAND_dresser_top_right_drawer を検証しています
+[2023.12.08-20.34.29:557][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser_top_right_drawer.drawer_SONGESAND_dresser_top_right_drawer を検証しています
+[2023.12.08-20.34.29:557][ 89]LogContentValidation: Display: /Script/Engine.StaticMesh /Game/Door/drawer1/drawer_SONGESAND_dresser_bottom_left_drawer.drawer_SONGESAND_dresser_bottom_left_drawer を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser_bottom_left_drawer.drawer_SONGESAND_dresser_bottom_left_drawer を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/Engine.StaticMesh /Game/Door/drawer1/drawer_SONGESAND_dresser_middle_left_drawer.drawer_SONGESAND_dresser_middle_left_drawer を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser_middle_left_drawer.drawer_SONGESAND_dresser_middle_left_drawer を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/Engine.StaticMesh /Game/Door/drawer1/drawer_SONGESAND_dresser_counter.drawer_SONGESAND_dresser_counter を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser_counter.drawer_SONGESAND_dresser_counter を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/Engine.Material /Game/Door/drawer1/drawer_handle_002.drawer_handle_002 を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/drawer_handle_002.drawer_handle_002 を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/Engine.StaticMesh /Game/Door/drawer1/drawer_SONGESAND_dresser_top_left_drawer.drawer_SONGESAND_dresser_top_left_drawer を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/drawer_SONGESAND_dresser_top_left_drawer.drawer_SONGESAND_dresser_top_left_drawer を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Door/drawer1/Drawers_BP_Child.Drawers_BP_Child を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/Drawers_BP_Child.Drawers_BP_Child を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/Drawers_BP_Child.Drawers_BP_Child_C を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/Drawers_BP_Child.Default__Drawers_BP_Child_C を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Door/drawer1/top_right_Child.top_right_Child を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/top_right_Child.top_right_Child を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/top_right_Child.top_right_Child_C を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/top_right_Child.Default__top_right_Child_C を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/Engine.Blueprint /Game/Door/drawer1/top_right.top_right を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/top_right.top_right を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/top_right.top_right_C を検証しています
+[2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/top_right.Default__top_right_C を検証しています
+[2023.12.08-20.34.29:589][ 89]LogAutomationController: Ignoring very large delta of 9.06 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
