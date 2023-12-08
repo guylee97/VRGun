@@ -5228,3 +5228,4 @@ Script Stack (3 frames) :
 [2023.12.08-20.34.29:558][ 89]LogContentValidation: Display: /Script/CoreUObject.ObjectRedirector /Game/Door/New_Folder(1)/top_right.Default__top_right_C を検証しています
 [2023.12.08-20.34.29:589][ 89]LogAutomationController: Ignoring very large delta of 9.06 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
 [2023.12.08-21.00.46:847][852]LogDerivedDataCache: C:/Users/kros_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:39.499 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 20374 files in 22377 folders with total size 1908 MiB.
+[2023.12.08-22.00.48:345][649]LogDerivedDataCache: C:/Users/kros_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:40.997 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 20374 files in 22377 folders with total size 1908 MiB.
