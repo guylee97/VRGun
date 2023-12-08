@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+#* text=auto
+*.blend filter=lfs diff=lfs merge=lfs -text
+housemap/Content/Door/dark-wood-dresser-with-fully-modelled-drawers.blend filter=lfs diff=lfs merge=lfs -text
