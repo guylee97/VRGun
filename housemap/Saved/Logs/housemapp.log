@@ -5229,3 +5229,37 @@ Script Stack (3 frames) :
 [2023.12.08-20.34.29:589][ 89]LogAutomationController: Ignoring very large delta of 9.06 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
 [2023.12.08-21.00.46:847][852]LogDerivedDataCache: C:/Users/kros_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:39.499 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 20374 files in 22377 folders with total size 1908 MiB.
 [2023.12.08-22.00.48:345][649]LogDerivedDataCache: C:/Users/kros_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:40.997 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 20374 files in 22377 folders with total size 1908 MiB.
+[2023.12.08-23.00.46:901][483]LogDerivedDataCache: C:/Users/kros_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:39.553 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 20374 files in 22377 folders with total size 1908 MiB.
+[2023.12.09-00.00.46:816][270]LogDerivedDataCache: C:/Users/kros_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:39.468 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 20374 files in 22377 folders with total size 1908 MiB.
+[2023.12.09-01.00.46:916][ 68]LogDerivedDataCache: C:/Users/kros_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:39.567 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 20374 files in 22377 folders with total size 1908 MiB.
+[2023.12.09-01.40.34:239][227]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.12.09-01.40.34:276][228]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20236
+[2023.12.09-05.23.01:502][235]LogAudioMixer: Warning: FMixerNullCallback: Large time delta between simulated audio clock and realtime [-5113ms], ThreadID=20236
+[2023.12.09-05.23.02:014][235]LogAudioMixer: Warning: FMixerNullCallback: Large time delta between simulated audio clock and realtime [-13348577ms], ThreadID=20236
+[2023.12.09-05.23.02:322][236]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.12.09-05.23.02:382][236]LogAutomationController: Ignoring very large delta of 13350.75 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.09-05.23.02:758][236]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [13354 Seconds] waiting for h/w. InstanceID=1
+[2023.12.09-05.23.07:656][237]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b7f0eddc-793c-4d2f-9296-6f44bf326947}, Name=스피커 (Synaptics SmartAudio HD)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=13357563.00
+[2023.12.09-05.23.07:657][237]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.12.09-05.23.07:663][237]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.12.09-05.23.07:677][237]LogAutomationController: Ignoring very large delta of 4.62 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.09-05.23.10:663][238]LogUdpMessaging: Display: Added local interface '192.168.0.145' to multicast group '230.0.0.1:6666'
+[2023.12.09-05.23.10:803][238]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20236
+[2023.12.09-05.23.10:805][238]LogAutomationController: Ignoring very large delta of 3.13 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.09-05.23.15:803][249]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.12.09-05.23.20:804][261]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.12.09-05.23.24:942][273]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b7f0eddc-793c-4d2f-9296-6f44bf326947}, Name=스피커 (Synaptics SmartAudio HD)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=14034.48
+[2023.12.09-05.23.24:942][273]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.12.09-05.23.24:949][273]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.12.09-05.23.25:277][274]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20236
+[2023.12.09-05.23.30:277][289]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.12.09-05.23.30:618][290]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b7f0eddc-793c-4d2f-9296-6f44bf326947}, Name=스피커 (Synaptics SmartAudio HD)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=5120.94
+[2023.12.09-05.23.30:620][290]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.12.09-05.23.30:628][290]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.12.09-05.23.30:945][291]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20236
+[2023.12.09-05.23.35:289][304]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b7f0eddc-793c-4d2f-9296-6f44bf326947}, Name=스피커 (Synaptics SmartAudio HD)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=4215.05
+[2023.12.09-05.23.35:289][304]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.12.09-05.23.35:295][304]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.12.09-05.23.54:108][347]LogAutomationController: Ignoring very large delta of 4.51 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.09-05.43.10:419][814]LogDerivedDataCache: C:/Users/kros_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:39.583 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 20374 files in 22377 folders with total size 1908 MiB.
+[2023.12.09-06.43.10:280][609]LogDerivedDataCache: C:/Users/kros_/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:39.445 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 20374 files in 22377 folders with total size 1908 MiB.
